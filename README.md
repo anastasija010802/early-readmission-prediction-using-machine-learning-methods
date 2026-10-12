@@ -47,7 +47,7 @@ Note: All analyses and transformations performed during the EDA phase were based
 Transforming the target feature: the categories ">30" and "NO" were grouped into a single category, "OK", while the category "<30" was assigned to the positive class, indicating a potential failure of the healthcare system. Readmissions occurring more than 30 days after discharge may, on the other hand, be associated with disease progression rather than a failure in the quality of care.
 After transforming the target feature, its distribution is shown below:
 
-![Target variable distribution](images/Screenshot (385).png)
+![Target variable distribution](images/Screenshot%20(385).png)
 
 ## 2. Data engineering
 
