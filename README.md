@@ -224,37 +224,38 @@ The predictive performance remained limited, indicating that the available featu
 Future work could explore additional patient and clinical information, alternative feature selection strategies, and transformations of important features to capture potentially more complex relationships. Further investigation of model calibration and decision thresholds could also help improve the practical usefulness of predicted readmission probabilities.
 
 
-##  How to Run the Project
+## How to Run the Project
 
-### 1. Clone the Repository
+### 1. Download the Repository
 
-Clone the repository and navigate to the project directory:
+Download the repository as a ZIP file by clicking **Code → Download ZIP** on GitHub, then extract the archive.
+
+Alternatively, clone the repository using Git:
 
 ```bash
 git clone https://github.com/anastasija010802/early-readmission-prediction-using-machine-learning-methods.git
-cd early-readmission-prediction-using-machine-learning-methods
 ```
 
 ### 2. Download the Datasets
 
-Download the datasets from the links provided in the **Data Sources** section of this README.
+Download the main dataset and the ICD-9-CM reference tables using the links provided in the **Data Sources** section of this README.
 
-- **Main dataset:** Open the dataset link and download the dataset file.
-- **ICD-9-CM reference tables:** Open the [Dtab09.zip](https://ftp.cdc.gov/pub/health_statistics/nchs/publications/icd9-cm/2008/Dtab09.zip) file, download it, and extract its contents.
+For the ICD-9-CM reference tables, download [Dtab09.zip](https://ftp.cdc.gov/pub/health_statistics/nchs/publications/icd9-cm/2008/Dtab09.zip) and extract its contents.
 
-Place the downloaded main dataset file and the extracted ICD-9-CM reference files in the `datasets/` directory.
+Place the downloaded files in the `datasets/` directory within the project folder.
 
-### 3. Prepare the Project Directories
+### 3. Prepare the Directories
 
-Ensure that the following directories exist in the project root:
+Create an empty `preprocessed/` directory in the project folder if it does not already exist.
 
-```text
-ML_project/
-├── datasets/
-├── preprocessed/
-└── README.md
-```
+### 4. Run the Project
 
-The `datasets/` directory contains the downloaded source data, while `preprocessed/` is used to store preprocessed data generated during the workflow. Create the `preprocessed/` directory manually before running the project if it does not already exist.
+Run the following Python scripts in the specified order:
+
+1. `eda2.py` — performs exploratory data analysis and prepares the data;
+2. `model1.py` — performs the first stage of model development and evaluation;
+3. `model2.py` — performs the subsequent modelling and evaluation stage.
+
+Make sure to run each script from the project directory and complete it before running the next one.
 
 
