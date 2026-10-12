@@ -182,11 +182,11 @@ Probability calibration was applied to improve the reliability of the predicted 
 
 Calibration Curve Before Calibration
 
-![Calibration Curve Before Calibration](images/Screenshot (378)(1).png)
+![Calibration Curve Before Calibration](images/Screenshot%20(378)(1).png)
 
 Calibration Curve After Calibration
 
-![Calibration Curve After Calibration](images/Screenshot (379)(1).png)
+![Calibration Curve After Calibration](images/Screenshot%20(379)(1).png)
 
 After calibration, a classification threshold of 0.13 was selected, as it achieved the highest F1-score among the evaluated thresholds.
 
@@ -209,11 +209,11 @@ The final model performance on the held-out test set, using this threshold, is p
 
 1. Most Important Features
 
-![Most Important Features](images/Screenshot (380)(1).png)
+![Most Important Features](images/Screenshot%20(380)(1).png)
 
 2. Feature Impact on Predictions
 
-![Feature Impact on Predictions](images/Screenshot (381)(1).png)
+![Feature Impact on Predictions](images/Screenshot%20(381)(1).png)
 
 ### 3. Conclusion
 
